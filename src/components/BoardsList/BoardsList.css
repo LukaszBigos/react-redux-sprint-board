@@ -1,0 +1,28 @@
+.boards-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+#new-board {
+  margin: 1rem;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  background-color: rgba(49, 245, 124, 0.596);
+  color: #fff;
+  font-size: 1.3rem;;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#new-board:hover {
+  background-color: rgb(5, 71, 20);
+}
+
+#new-board:active {
+  background-color: rgb(4, 56, 16);
+}

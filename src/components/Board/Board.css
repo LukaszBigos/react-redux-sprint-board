@@ -1,0 +1,8 @@
+.board {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  /* width: 10vw; */
+  background-color: rgba(82, 75, 80, 0.3);
+  color: #fff;
+}
